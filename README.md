@@ -1,2 +1,9 @@
 # Crop-Recommendation-System
-Precision agriculture is in trend nowadays. It helps the farmers to get informed decision about the farming strategy. Here, I present you a Artificial Neural Network based predictive model to recommend the most suitable crops to grow in a particular farm based on various parameters.
+# Motivation
+Precision agirculture is in trend nowadays. Precision agriculture is a modern farming technique that uses the data of soil charachteristics, soil types, crop yield data, weather conditions and suggests the farmers with the most optimal crop to grow in their farms for maximum yield and profit. This technique can reduce the crop failures and will help the farmers to take informed decision about their farming strategy.
+
+In order to mitigate the agrarian crisis in the current status quo, there is a need for better recommendation systems to alleviate the crisis by helping the farmers to make an informed decision before starting the cultivation of crops.
+
+
+# Goal
+To recommend optimum crops to be cultivated by farmers based on several parameters and help them make an informed decision before cultivation
