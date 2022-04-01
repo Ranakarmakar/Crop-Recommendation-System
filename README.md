@@ -11,4 +11,5 @@ To recommend optimum crops to be cultivated by farmers based on several paramete
 
 # Model Performance
 
-![Accuracy](https://user-images.githubusercontent.com/77492330/161276042-22dfcc26-6823-4f7a-958e-9354c85f9882.png)
+![Accuracy](https://user-images.githubusercontent.com/77492330/161276381-c5a7e495-08d7-4e75-bf03-eab0e328b3f9.png)
+
