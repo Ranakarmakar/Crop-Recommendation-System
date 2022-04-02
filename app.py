@@ -38,12 +38,11 @@ def mai():
                                              100 * np.max(prediction))
     else:
         result = " "
-
-    # result = "Hi.. This is a test page"
+        
 
     return render_template("mai.html", prediction=result)
 
 
 if __name__ == '__main__':
-    # app.run(host='0.0.0.0', port=port, debug=True)
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port, debug=True)
+    #app.run(debug=True)
