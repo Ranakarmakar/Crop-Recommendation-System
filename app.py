@@ -34,8 +34,8 @@ def mai():
         for i in range(0, len(lst)):
             lst[i] = int(lst[i])
         prediction = model.predict([lst])
-        result = " {} with {:.2f}%  ".format(class_names[np.argmax(prediction)],
-                                             100 * np.max(prediction))
+        result = "Recommended Crop is {} with {:.2f}% Confidence. ".format(class_names[np.argmax(prediction)],
+                                                                           100 * np.max(prediction))
     else:
         result = " "
         
