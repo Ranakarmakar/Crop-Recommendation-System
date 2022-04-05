@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import os
 import numpy as np
-# from keras.models import load_model
+from keras.models import load_model
 
 app = Flask(__name__)
 port = int(os.getenv('PORT', 8000))
@@ -11,8 +11,8 @@ class_names = ['Rice', 'Maize', 'Chickpea', 'Kidney-beans', 'Pigeon-peas',
                'Banana', 'Mango', 'Grapes', 'Watermelon', 'Muskmelon', 'Apple',
                'Orange', 'Papaya', 'Coconut', 'Cotton', 'Jute', 'Coffee']
 
-# model = load_model('crop_ann_model_.h5')
-model = pickle.load(open("gnb_model.pkl", 'rb'))
+model = load_model('crop_ann_model_.h5')
+#model = pickle.load(open("gnb_model.pkl", 'rb'))
 
 
 @app.route('/', methods=['GET'])
