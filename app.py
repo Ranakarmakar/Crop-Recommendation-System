@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
-port = int(os.getenv('PORT', 8000))
+port = int(os.getenv('PORT', 5000))
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 class_names = ['Rice', 'Maize', 'Chickpea', 'Kidney-beans', 'Pigeon-peas',
                'Moth beans', 'Mung-bean', 'Black gram', 'Lentil', 'Pomegranate',
@@ -45,5 +45,5 @@ def mai():
 
 
 if __name__ == '__main__':
-    # app.run(host='0.0.0.0', port=port, debug=True)
-    app.run()
+    app.run(host='0.0.0.0', port=port, debug=True)
+    #app.run()
