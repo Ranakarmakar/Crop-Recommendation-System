@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 import os
 import numpy as np
 from keras.models import load_model
+import warnings
+warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
 port = int(os.getenv('PORT', 8000))
